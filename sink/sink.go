@@ -9,7 +9,7 @@ import (
 	feeder "github.com/kubearmor/KubeArmor/protobuf"
 	"github.com/kubearmor/kubearmor-client/k8s"
 	klog "github.com/kubearmor/kubearmor-client/log"
-	"github.com/streadway/amqp"
+	amqp "github.com/rabbitmq/amqp091-go"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 )

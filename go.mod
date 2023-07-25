@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/kubearmor/KubeArmor/protobuf v0.0.0-20230711122007-7ab3a56cfd76
 	github.com/kubearmor/kubearmor-client v0.13.11
-	github.com/streadway/amqp v1.1.0
+	github.com/rabbitmq/amqp091-go v1.8.1
 	google.golang.org/protobuf v1.30.0
 )
 
